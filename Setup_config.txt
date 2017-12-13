@@ -9,5 +9,3 @@ For four motors 'nearly' simulteniuosly.
 Sparing last of each end for possible sudden high or low note, 
 Maintaining median location to 1/4th of setup. 
 The nearest rider would engage to press key, it is not ! Not leaving the pressed key.
-
-
