@@ -1,0 +1,11 @@
+Needed configuration for;
+Keybord: four rider motors as servo mounted on stepper capable to move whole setup up and down. 
+Arduino: driving all the motors with uln drivers. 
+Process
+arduino receives serial command over ttl rx, tx. 
+Move rider to the note and press.
+Send done acknowledge to master.
+For four motors 'nearly' simulteniuosly.
+Sparing last of each end for possible sudden high or low note, 
+Maintaining median location to 1/4th of setup. 
+The nearest rider would engage to press key, it is not ! Not leaving the pressed key.
