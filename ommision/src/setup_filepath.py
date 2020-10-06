@@ -1,15 +1,8 @@
 import os
 
-
-home_dir = os.getcwd().
-data_dir = os.path.join(home_dir, 'data')
-src_dir = os.path.join(home_dir, 'src')
-game_dir = os.path.join(home_dir, 'game')
-list_dir = os.listdir(home_dir)
-
+home_dir = os.getcwd()
+parant = os.path.abspath(os.path.join(home_dir, os.pardir))
 print(home_dir)
-for (root, dirs, files) in os.walk(home_dir):
-    print(root)
-    print(dirs)
-    print(files)
-    print("-----")
+print("parant:-----------", parant)
+pre_parent = parant = os.path.abspath(os.path.join(parant, os.pardir))
+print("pre_parent", pre_parent)
